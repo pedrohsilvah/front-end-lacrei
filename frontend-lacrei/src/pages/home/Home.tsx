@@ -1,6 +1,7 @@
 import { ButtonLink } from "../../components/button/Button"
 import Header from "../../components/header/Header"
 import { Body } from "../../components/body/Body"
+import Footer from "../../components/footer/Footer"
 
 function Home () {
     return(
@@ -10,6 +11,7 @@ function Home () {
             <p>Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+</p>
             <ButtonLink>Pessoa Usuária</ButtonLink>
             <ButtonLink>Profissional</ButtonLink>
+            <Footer></Footer>
         </Body>
     )
 }

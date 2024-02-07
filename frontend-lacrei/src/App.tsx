@@ -4,7 +4,6 @@ import './App.css'
 import Home from './pages/home/Home';
 import UserPerson from './pages/user-person/User-person';
 import Profissional from './pages/profissional/Profissional';
-import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <Routes>
             <Route path='/profissional' element={<Profissional />} />
           </Routes>
-          <Footer />
         </BrowserRouter>
   )
 }
