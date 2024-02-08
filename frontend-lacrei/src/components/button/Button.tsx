@@ -1,5 +1,5 @@
 import React from 'react';
-import {ButtonLink} from './Button'
+import {ButtonLink, DivButton} from './Button'
 
 const mensagem:string = ""
 

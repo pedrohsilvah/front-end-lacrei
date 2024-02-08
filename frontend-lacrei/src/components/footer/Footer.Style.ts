@@ -29,7 +29,6 @@ export const DivRedes = styled.div`
     color: black;
 `
 export const LinkRedes = styled.a`
-    text-decoration: none;
     @media(max-width: 520px){
      flex-direction: row;
      justify-content: start; 
@@ -43,6 +42,17 @@ export const LinkRedes = styled.a`
     padding-left: 30px;
     width: 200px;
 
+    font-size: 2rem;
+    color: rgb(1, 135, 98);
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    font-weight: 100;
+
+    /* font-family: 'Nunito', sans-serif; */
+    &:BsInstagram {
+        font-family: 'Nunito', sans-serif;
+    }
+
 `
 export const ImgRedes = styled.img`
     
@@ -50,4 +60,7 @@ export const ImgRedes = styled.img`
 
 export const FooterText = styled.p`
     color: black;
+    padding-left: 30px;
+    font-size: 0.75rem;
+    opacity: 0.8;
 `

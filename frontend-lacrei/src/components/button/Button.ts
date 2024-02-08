@@ -11,7 +11,6 @@ export const ButtonLink = styled.button `
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 30px;
 
     padding: 0.925rem 2.75rem;
     color: rgb(1, 135, 98);
@@ -22,3 +21,9 @@ export const ButtonLink = styled.button `
     margin-top: 50px;
     
 `
+export const DivButton = styled.div `
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 110px;
+` 

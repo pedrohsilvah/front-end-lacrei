@@ -34,8 +34,8 @@ export const ListA = styled.a `
 
 export const LinkHeader = styled.a `
     color: rgb(1, 135, 98);
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 700;
     text-decoration: none;
-    margin-left: 30px; 
+    margin-left: 59px; 
 `
