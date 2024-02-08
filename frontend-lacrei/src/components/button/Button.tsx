@@ -1,5 +1,5 @@
 import React from 'react';
-import {ButtonLink, DivButton, LinkButton} from './Button'
+import {DivButton, LinkButton} from './Button'
 
 // const mensagem:string = ""
 
@@ -7,9 +7,7 @@ const Button = () => {
     return (
         <>
         <DivButton>
-                <ButtonLink>
-                    <LinkButton></LinkButton>
-                </ButtonLink>
+            <LinkButton></LinkButton>
         </DivButton>
         </>
     )

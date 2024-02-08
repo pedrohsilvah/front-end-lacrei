@@ -5,9 +5,22 @@ export const FooterBody = styled.footer`
     display: flex;
     flex-direction: column;
     padding-left: 40px;
+
+    @media(max-width: 520px){
+     padding-left: 0px;
+}
+    @media(min-width: 521px) and (max-width: 1040px){
+    margin-left: 0px;
+}
 `
 export const FooterListUl = styled.ul`
     display: flex;
+
+    @media(max-width: 520px){
+    flex-direction: column;
+    line-height: 30px;
+}
+
 `
 
 export const FooterListA = styled.a`

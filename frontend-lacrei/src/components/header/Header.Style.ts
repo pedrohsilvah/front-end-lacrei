@@ -7,12 +7,29 @@ export const HeaderNav = styled.header `
     padding-right: 2%;
     padding-left: 2%;
     padding: 5px;
+
+    @media(max-width: 520px){
+     margin-right: 0px;
+     display: block;
+     text-align: center;
+}
+@media(min-width: 521px) and (max-width: 1040px){
+     margin: 0px;
+}
 `
 
 export const ListUl = styled.ul `
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
+
+    @media(max-width: 520px){
+     margin-left: 0px;
+}
+@media(min-width: 521px) and (max-width: 1040px){
+     margin: 0px;
+}
+
 `
 
 export const ListA = styled.a `
@@ -30,6 +47,15 @@ export const ListA = styled.a `
     &:active {
         color: rgb(1, 135, 98);
     }
+
+    @media(max-width: 520px){
+     margin-right: 0px;  
+}
+    @media(min-width: 521px) and (max-width: 1040px){
+    margin-right: 0px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
 `
 
 export const LinkHeader = styled.a `
@@ -38,4 +64,11 @@ export const LinkHeader = styled.a `
     font-weight: 700;
     text-decoration: none;
     margin-left: 59px; 
+
+    @media(max-width: 520px){
+     margin-left: 0px;
+}
+    @media(min-width: 521px) and (max-width: 1040px){
+    margin-left: 40px;
+}
 `

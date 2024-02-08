@@ -3,14 +3,21 @@ import styled from "styled-components";
 export const Titulo = styled.h1 `
     @media(max-width: 1040px){
           font-size: 24px;
+          text-align: start;
      }
+
+     @media(min-width: 521px) and (max-width: 1040px){
+     line-height: 1.35rem;
+     font-size: 1.1rem;
+}
+
      font-size: 3rem;
      opacity: 0.9;
 `
 
 export const Text = styled.h1 `
     @media(max-width: 520px){
-     font-size: 0.80rem;   
+     font-size: 1rem;   
      line-height: 1.25rem;
 }
 @media(min-width: 521px) and (max-width: 1040px){
@@ -29,11 +36,24 @@ export const Descricao = styled.div `
     text-align: start;
     line-height: 4.7rem;
     max-width: 580px;
+
+    @media (max-width: 1040px){
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 10px;
+    line-height: 30px;
+    }
 `
 export const Hr = styled.hr`
      margin-left: 50px;
      margin-right: 50px;
      margin-top: 10px;
+
+     /* @media (max-width: 1040px){
+    margin-left: 0px;
+    line-height: 0px;
+    } */
 `
 
 export const ContainerImg = styled.div `
@@ -45,7 +65,7 @@ export const ContainerImg = styled.div `
 
 export const Text2 = styled.div `
      @media(max-width: 520px){
-     font-size: 0.80rem;   
+     font-size: 1rem;   
      line-height: 1.25rem;
 }
 @media(min-width: 521px) and (max-width: 1040px){
