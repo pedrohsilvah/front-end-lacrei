@@ -42,3 +42,27 @@ export const ContainerImg = styled.div `
      max-height: 450px;          
      padding-top: 2rem; */
 `
+
+export const Text2 = styled.div `
+     @media(max-width: 520px){
+     font-size: 0.80rem;   
+     line-height: 1.25rem;
+}
+@media(min-width: 521px) and (max-width: 1040px){
+     line-height: 1.35rem;
+     font-size: 1.1rem;
+}
+@media(min-width: 1041px){
+     line-height: 2rem;
+     font-size: 1.5rem;
+}
+
+     opacity: 0.8;
+     font-weight: 400;    
+     line-height: 2rem;
+     margin-top: 2rem;
+     padding-left: 1rem;
+     border-left: 5px solid rgb(1, 135, 98);
+     font-size: 1.5rem;
+     color: rgb(81, 81, 81);
+`

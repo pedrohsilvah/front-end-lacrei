@@ -1,11 +1,17 @@
 import React from 'react';
-import {ButtonLink, DivButton} from './Button'
+import {ButtonLink, DivButton, LinkButton} from './Button'
 
-const mensagem:string = ""
+// const mensagem:string = ""
 
 const Button = () => {
     return (
-        <ButtonLink>{mensagem}</ButtonLink>
+        <>
+        <DivButton>
+                <ButtonLink>
+                    <LinkButton></LinkButton>
+                </ButtonLink>
+        </DivButton>
+        </>
     )
 }
 
