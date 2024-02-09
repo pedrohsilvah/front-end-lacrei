@@ -1,7 +1,7 @@
 module.exports = {
-    presents: [
-        ['@babel/present-env', {targets: {esmodules: true} }],
-        ['@babel/present-react', {runtime: 'automatic' }],
-        '@babel/preset-typescript'
+    presets: [
+      ['@babel/preset-env', { targets: { esmodules: true } }],
+      ['@babel/preset-react', { runtime: 'automatic' }],
+      '@babel/preset-typescript',
     ],
-}
+  };

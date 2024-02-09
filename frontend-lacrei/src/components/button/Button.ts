@@ -30,6 +30,7 @@ import styled from "styled-components";
 export const DivButton = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     padding-right: 110px;
 
@@ -43,9 +44,8 @@ export const DivButton = styled.div`
 `
 
 export const LinkButton = styled.a`
-    width: 192px;
-    margin-top: 15px;
-    height: 48px;     
+    width: 200px;
+    margin-top: 15px;    
 
     color: rgb(1, 135, 98);
     background-color: rgb(255, 255, 255);
@@ -54,10 +54,31 @@ export const LinkButton = styled.a`
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    letter-spacing: normal;
     text-decoration: none;
   
     border-radius: 8px;
     box-shadow: 0px 4px 7px  gray;
 
+
+    
+    font-size: 16px;
+    text-align: center;
+     text-decoration: none;
+     color: #fff;
+     background-color: #007bff;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+
+     padding: 0.125rem 2.75rem;
+     color: rgb(1, 135, 98);
+     background-color: rgb(255, 255, 255);
+     border: 2px solid rgb(1, 135, 98);
+     box-shadow: -2px 4px 7px 1px #00000054;
+     font-weight: 700;
+
+     @media(max-width: 520px){
+      margin-bottom: 20px;
+      text-align: center;
+     }
 ` 

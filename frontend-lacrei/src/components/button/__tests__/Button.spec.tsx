@@ -1,8 +1,10 @@
 import {render} from '@testing-library/react'
-import Button from '../Button.tsx'
-describe('Test Button', () => {
-    it('teste render', () =>{
-        render(<Button />)
+import { LinkButton } from '../Button'
+
+describe('App Component', () => {
+    it('should render', () =>{
+        render(<LinkButton />)
         expect(1).toBe(1)
     })
 })
+
