@@ -11,7 +11,7 @@ const Footer = () => {
         <FooterBody>
         <Hr />
             <FooterListUl>
-                <FooterListA href="/front-end-lacrei">Home</FooterListA>
+                <FooterListA href="/front-end-lacrei/">Home</FooterListA>
                 <FooterListA href="/front-end-lacrei/pessoa-usuaria">Pessoa Usuária</FooterListA>
                 <FooterListA href="/front-end-lacrei/profissional">Profissional</FooterListA>
             </FooterListUl>
