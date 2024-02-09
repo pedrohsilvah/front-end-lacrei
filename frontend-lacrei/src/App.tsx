@@ -11,7 +11,7 @@ function App() {
   return (
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/front-end-lacrei' element={<Home />} />
           </Routes>
           <Routes>
             <Route path='/pessoa-usuaria' element={<UserPerson />} />
