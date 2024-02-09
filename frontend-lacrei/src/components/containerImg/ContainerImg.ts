@@ -11,7 +11,7 @@ export const Imagem = styled.img `
      width: 100%;
 
      @media(max-width: 520px){
-     margin-top: 50px;
+     margin-top: 100px;
 }
     @media(min-width: 521px) and (max-width: 1040px){
     margin-left: 0px;

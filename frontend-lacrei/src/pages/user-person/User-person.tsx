@@ -22,7 +22,6 @@ function UserPerson () {
                     <img src={ImgUserPerson} />
                 </ContainerImg>
             </Container>
-            <Hr color="#acebbf92"/>
         </Body>
         <Footer></Footer>
         </>

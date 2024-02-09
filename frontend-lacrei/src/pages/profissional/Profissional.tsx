@@ -22,7 +22,6 @@ function Profissional () {
                     <img src={ImgProfissional} />
                 </ContainerImg>
             </Container>
-            <Hr color="#acebbf92"/>
         </Body>
         <Footer></Footer>
         </>

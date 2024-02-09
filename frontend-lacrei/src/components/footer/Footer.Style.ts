@@ -61,14 +61,25 @@ export const LinkRedes = styled.a`
     transition: all 0.2s ease 0s;
     font-weight: 100;
 
+    @media(max-width: 520px){
+     font-size: 27px;
+    }
+    font-size: 26px;
+    font-weight: bold;
+
     /* font-family: 'Nunito', sans-serif; */
     &:BsInstagram {
         font-family: 'Nunito', sans-serif;
+        font-weight: bold;          
+        size: 70;
     }
 
-`
-export const ImgRedes = styled.img`
-    
+    &:CiFacebook:hover {
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;          
+        size: 70;
+    }
+
 `
 
 export const FooterText = styled.p`
@@ -77,3 +88,11 @@ export const FooterText = styled.p`
     font-size: 0.75rem;
     opacity: 0.8;
 `
+
+// export const SocialMediaIcon = styled.a`
+// @media(max-width: 520px){
+//      font-size: 27px;
+// }
+// font-size: 25px;
+ 
+// `

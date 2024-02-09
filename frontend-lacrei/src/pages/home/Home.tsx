@@ -1,4 +1,4 @@
-import { DivButton, LinkButton} from "../../components/button/Button"
+import { DivButton, LinkButton1, LinkButton2} from "../../components/button/Button"
 import Header from "../../components/header/Header"
 import { Body } from "../../components/body/Body"
 import Footer from "../../components/footer/Footer"
@@ -19,15 +19,14 @@ function Home () {
                 <Titulo>Boas vindas a Lacrei Saúde</Titulo>
                 <Text>Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+</Text>
                 <DivButton>
-                        <LinkButton href="/pessoa-usuaria">Pessoa Usuária</LinkButton>
-                        <LinkButton href="/pessoa-usuaria">Profissional</LinkButton>
+                        <LinkButton1 href="/pessoa-usuaria">Pessoa Usuária</LinkButton1>
+                        <LinkButton2 href="/profissional">Profissional</LinkButton2>
                 </DivButton>
                 </Descricao>
                 <ContainerImg>
                     <Imagem src={ImgHome} />
                 </ContainerImg>
             </Container>
-            <Hr color="#acebbf92"/>
         </Body>
         <Footer></Footer>
         </>
