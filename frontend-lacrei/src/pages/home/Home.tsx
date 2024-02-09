@@ -18,8 +18,8 @@ function Home () {
                 <Titulo>Boas vindas a Lacrei Saúde</Titulo>
                 <Text>Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+</Text>
                 <DivButton>
-                        <LinkButton1 href="/front-end-lacrei/pessoa-usuaria">Pessoa Usuária</LinkButton1>
-                        <LinkButton2 href="/front-end-lacrei/profissional">Profissional</LinkButton2>
+                        <LinkButton1 href="/pessoa-usuaria">Pessoa Usuária</LinkButton1>
+                        <LinkButton2 href="/profissional">Profissional</LinkButton2>
                 </DivButton>
                 </Descricao>
                 <ContainerImg>

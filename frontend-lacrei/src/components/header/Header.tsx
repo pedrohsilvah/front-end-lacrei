@@ -5,9 +5,9 @@ function Header() {
     <HeaderNav>
         <LinkHeader href="/">Lacrei</LinkHeader>
         <ListUl>
-          <ListA href="/front-end-lacrei">Home</ListA>
-          <ListA href="/front-end-lacrei/pessoa-usuaria">Pessoa Usuária</ListA>
-          <ListA href="/front-end-lacrei/profissional">Profissional</ListA>
+          <ListA href="/">Home</ListA>
+          <ListA href="/pessoa-usuaria">Pessoa Usuária</ListA>
+          <ListA href="/profissional">Profissional</ListA>
         </ListUl>
     </HeaderNav>
   )
