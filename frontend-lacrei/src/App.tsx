@@ -14,10 +14,10 @@ function App() {
             <Route path='/front-end-lacrei' element={<Home />} />
           </Routes>
           <Routes>
-            <Route path='/pessoa-usuaria' element={<UserPerson />} />
+            <Route path='/front-end-lacrei/pessoa-usuaria' element={<UserPerson />} />
           </Routes>
           <Routes>
-            <Route path='/profissional' element={<Profissional />} />
+            <Route path='/front-end-lacrei/profissional' element={<Profissional />} />
           </Routes>
         </BrowserRouter>
   )
