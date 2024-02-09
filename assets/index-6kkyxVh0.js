@@ -369,7 +369,7 @@ font-weight: 400;
      border-left: 5px solid rgb(1, 135, 98);
      font-size: 1.5rem;
      color: rgb(81, 81, 81);
-`,ws=()=>_.jsx(_.Fragment,{children:_.jsxs(v1,{children:[_.jsx(O1,{}),_.jsxs(y1,{children:[_.jsx(oo,{href:"/front-end-lacrei/",children:"Home"}),_.jsx(oo,{href:"/front-end-lacrei/pessoa-usuaria",children:"Pessoa Usuária"}),_.jsx(oo,{href:"/front-end-lacrei/profissional",children:"Profissional"})]}),_.jsxs(w1,{children:[_.jsx(uo,{href:"https://www.instagram.com/lacrei.saude/    ",target:"_blank",children:_.jsx(z1,{})}),_.jsx(uo,{href:"https://www.facebook.com/lacrei.saude/",target:"_blank",children:_.jsx(R1,{})}),_.jsx(uo,{href:"https://www.linkedin.com/company/lacrei-saude/",target:"_blank",children:_.jsx(j1,{})})]}),_.jsx(x1,{children:"Desafio Front-end Lacrei"})]})}),L1="/front-end-lacrei/assets/home-M4fpYime.png",xs=K.div`
+`,ws=()=>_.jsx(_.Fragment,{children:_.jsxs(v1,{children:[_.jsx(O1,{}),_.jsxs(y1,{children:[_.jsx(oo,{href:"/front-end-lacrei",children:"Home"}),_.jsx(oo,{href:"/front-end-lacrei/pessoa-usuaria",children:"Pessoa Usuária"}),_.jsx(oo,{href:"/front-end-lacrei/profissional",children:"Profissional"})]}),_.jsxs(w1,{children:[_.jsx(uo,{href:"https://www.instagram.com/lacrei.saude/    ",target:"_blank",children:_.jsx(z1,{})}),_.jsx(uo,{href:"https://www.facebook.com/lacrei.saude/",target:"_blank",children:_.jsx(R1,{})}),_.jsx(uo,{href:"https://www.linkedin.com/company/lacrei-saude/",target:"_blank",children:_.jsx(j1,{})})]}),_.jsx(x1,{children:"Desafio Front-end Lacrei"})]})}),L1="/front-end-lacrei/assets/home-M4fpYime.png",xs=K.div`
      @media(max-width: 520px){
           padding: 1rem 1rem 0px;
           flex-direction: column; 
