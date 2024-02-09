@@ -11,9 +11,9 @@ const Footer = () => {
         <FooterBody>
         <Hr />
             <FooterListUl>
-                <FooterListA href="/">Home</FooterListA>
-                <FooterListA href="/pessoa-usuaria">Pessoa Usuária</FooterListA>
-                <FooterListA href="/profissional">Profissional</FooterListA>
+                <FooterListA href="/front-end-lacrei">Home</FooterListA>
+                <FooterListA href="/front-end-lacrei/pessoa-usuaria">Pessoa Usuária</FooterListA>
+                <FooterListA href="/front-end-lacrei/profissional">Profissional</FooterListA>
             </FooterListUl>
             <DivRedes>
                 <LinkRedes href="https://www.instagram.com/lacrei.saude/    " target="_blank">
