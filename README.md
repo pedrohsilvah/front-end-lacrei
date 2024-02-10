@@ -26,4 +26,4 @@ A proposta da aplicação era criar uma replica de um site da Lacrei Saúde com 
 
 ## Deploy
 
-[Link para o Site]([pedrohsilvah.github.io/front-end-lacrei/](https://pedrohsilvah.github.io/front-end-lacrei/)https://pedrohsilvah.github.io/front-end-lacrei/])
+Link do Deploy: https://pedrohsilvah.github.io/front-end-lacrei/
