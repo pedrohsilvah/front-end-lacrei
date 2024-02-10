@@ -4,7 +4,10 @@ Desafio proposto pela Lacrei Saúde para que possa participar do voluntáriado.
 
 ## Layout da Web
 
-![Preview do Site](https://github.com/pedrohsilvah/front-end-lacreiassets/web.png)
+![web](https://github.com/pedrohsilvah/front-end-lacrei/assets/124065912/f6f63a71-0812-48d0-ab2d-c0eb15eb5820)
+
+## Layout da Mobile
+
 
 ## Tecnologias Utilizadas
 1. React
